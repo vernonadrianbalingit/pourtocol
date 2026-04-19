@@ -58,7 +58,7 @@ export function ActivityLog({ logs }: ActivityLogProps) {
             </p>
           </div>
         ) : (
-          <ScrollArea className="max-h-60">
+          <ScrollArea className="max-h-60 overflow-hidden">
             <div className="space-y-0">
               {logs.map((log, i) => (
                 <div key={`${log.timestamp}-${log.user_token}-${i}`}>
