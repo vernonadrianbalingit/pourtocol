@@ -41,7 +41,7 @@ export default function App() {
         {/* Header */}
         <header className="flex flex-col items-center justify-center text-center drop-shadow-sm">
           <h1 className="text-4xl font-extrabold uppercase tracking-tight text-white drop-shadow-[0_0_15px_rgba(var(--color-primary-rgb),0.5)] dark:text-primary">
-            Chuggernog
+            Pourtocol
           </h1>
           <p className="mt-1.5 text-[0.65rem] font-bold uppercase tracking-[0.3em] text-muted-foreground/80">
             Liquid Dispenser
