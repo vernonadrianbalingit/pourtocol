@@ -27,7 +27,7 @@ class Settings(BaseSettings):
 
     # Flask server
     host: str = "0.0.0.0"  # noqa: S104
-    port: int = 5000
+    port: int = 8080
     debug: bool = True
 
     # Database

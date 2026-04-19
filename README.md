@@ -96,7 +96,7 @@ cd backend
 uv sync
 
 # Launch server (database is initialized automatically)
-uv run flask run --host 0.0.0.0 --port 5000
+uv run flask run --host 0.0.0.0 --port 8080
 ```
 
 ### 2. Frontend
@@ -106,11 +106,11 @@ cd frontend
 # Install dependencies
 npm install
 
-# Start dev server (proxies /api/* to Flask on port 5000)
+# Start dev server (proxies /api/* to Flask on port 8080)
 npm run dev
 ```
 
-The Vite dev server starts on `http://localhost:5173` and automatically proxies all `/api/*` requests to the Flask backend on port 5000.
+The Vite dev server starts on `http://localhost:5173` and automatically proxies all `/api/*` requests to the Flask backend on port 8080.
 
 #### Production Build
 ```bash
