@@ -9,6 +9,9 @@ node_modules/
 # Frontend build output served by Flask
 backend/static/
 
+# ESP32 firmware (separate project)
+pio/
+
 # C extensions
 *.so
 
